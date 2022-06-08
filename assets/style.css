@@ -16,7 +16,7 @@ body {
 }
 .header {
    height: 90px;
-   width: 100vw;
+   width: 100%;
    background-color: rgba(0, 0, 0, 0.89);
 }
 
@@ -93,4 +93,31 @@ body {
 .btn:hover {
    background-color: rgb(194, 22, 22);
    transition: .3s;
+}
+
+@media (max-width: 1300px) {
+   .header {
+      height: 60px;
+   }
+   .header img {
+      height: 40px;
+      width: 50px;
+   }
+   .memory-game {
+      margin-top: 30px;
+      height: 370px;
+      width: 760px;
+   }
+
+   .btn-box {
+      margin-bottom: 35px;
+   }
+   .btn {
+      padding: 10px;
+      font-size: 16px;
+   }
+}
+
+@media (max-width: 800px) {
+
 }
